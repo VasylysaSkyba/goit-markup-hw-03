@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, p {
 margin-top: 0;
-margin-bottom: o;
+margin-bottom: 0;
 }
 
 ul, ol {
@@ -146,10 +146,13 @@ align-items: center;
 }
 
 
-/*======================= /HEADER =======================*/
+
 
 /*======================= HERO =======================*/
+.hero {
+  text-align: center;
 
+}
 .hero-titel {
   font-size: 56px;
   line-height: 1.07;
@@ -157,9 +160,15 @@ align-items: center;
   letter-spacing: 0.02em;
   background: var(--primary-text-color);
   color: var(--white-color);
+  margin-bottom: 48px;
+  
 }
 
 .modal-btn {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -168,16 +177,18 @@ align-items: center;
   cursor: pointer;
   background-color: #4d5ae5;
   color: var(--white-color);
+  display: inline-block;
+  border-radius: 4px;
+  
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
-
-
 }
-/*======================= /HERO =======================*/
+
+
 
 /*======================= FEATURE =======================*/
 
@@ -200,7 +211,6 @@ align-items: center;
 .filter-title {
   display: none;
 }
-/*======================= /FEATURE =======================*/
 
 /*======================= WORK =======================*/
 .works-title {
@@ -211,7 +221,6 @@ align-items: center;
   color: var(--primary-text-color);
 }
 
-/*======================= /WORK =======================*/
 
 /*======================== TEAM =======================*/
 .team-title {
@@ -236,7 +245,7 @@ align-items: center;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-/*======================= /TEAM =======================*/
+
 
 /*======================= FOOTER =======================*/
 .footer {
@@ -253,7 +262,7 @@ align-items: center;
 .logotype-part-footer {
   color: #F4F4FD;
 }
-/*======================= /FOOTER =======================*/
+
 
 /*======================= FILTER =======================*/
 .filter-btn {
@@ -274,7 +283,6 @@ align-items: center;
   color: var(--white-color);
 }
 
-/*======================= /FILTER =======================*/
 
 /*======================= Project Card =======================*/
 .card-title {
@@ -291,7 +299,7 @@ align-items: center;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-/*======================= /Project Card =======================*/
+
 
 
 /*======================= CONTAINER ==========================*/
