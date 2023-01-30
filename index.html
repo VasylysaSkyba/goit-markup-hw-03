@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Effective Solutions for Your Business</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
+" rel="stylesheet"></link>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +21,7 @@
   <body>
     <!--HEADER-->
     <header class="header">
+      <div class="container header-container">
       <nav class="navigation">
         <a class="logotype" href="./index.html">Web<span class="logotype-part-header">Studio</span></a>
         <ul class="header-list list">
@@ -31,27 +36,26 @@
           </li>
         </ul>
       </nav>
-      <address>
+      <address class="address">
         <ul class="contact-list">
           <li>
-            <a class="email" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
             <a class="tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
+      </div>
     </header>
     <!--HERO-->
     <main>
-      <section class="hero">
+      <section class="hero container">
         <h1 class="hero-titel">Effective Solutions for Your Business</h1>
         <button class="modal-btn" type="button">Order Service</button>
       </section>
       <!--FEATURE-->
-      <section class="feature">
+      <section class="feature container">
         <h2 class="feature-title">Features</h2>
         <ul class="feature-list">
           <li>
@@ -85,7 +89,7 @@
         </ul>
       </section>
       <!--WORK-->
-      <section class="works">
+      <section class="works container">
         <h2 class="works-title">What are we doing</h2>
 
         <ul class="works-list">
@@ -119,7 +123,7 @@
         </ul>
       </section>
       <!--TEAM-->
-      <section class="team">
+      <section class="team container">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
           <li class="team-item">
@@ -173,7 +177,7 @@
       </section>
     </main>
     <!--FOOTER-->
-    <footer class="footer">
+    <footer class="footer container">
       <a class="logotype" href="./index.html">Web<span class="logotype-part-footer">Studio</span></a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
