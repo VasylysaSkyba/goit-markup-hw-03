@@ -246,18 +246,33 @@ display: flex;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
+  text-align: center;
+  padding-bottom: 72px;
+}
+.works-list {
+  display: flex;
+  gap: 24px;
 }
 
-
 /*======================== TEAM =======================*/
+.team {
+  background-color: var(--background-color);
+}
+
 .team-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
+  text-align: center;
+  padding-bottom: 72px;
 }
 
+.team-list {
+  display: flex;
+
+}
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -271,25 +286,42 @@ display: flex;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  text-align: center;
 }
 
-
+.team-name {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+.team-item {
+  flex-basis: calc((100%-64px) / 4);
+}
 /*======================= FOOTER =======================*/
 .footer {
   background-color: var(--primary-text-color);
 }
 
 .footer-text {
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+  padding-top: 16px;
+  padding-left: 143px;
+  
+  
 }
 
 .logotype-part-footer {
   color: #F4F4FD;
+  
 }
 
+.logotype-footer {
+
+}
 
 /*======================= FILTER =======================*/
 .filter-btn {
