@@ -59,7 +59,7 @@ img {
 /*======================= HEADER =======================*/
 .section {
   padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px;*/
 }
 
 .header {
@@ -155,10 +155,9 @@ img {
 /*======================= HERO =======================*/
 .hero {
   text-align: center;
-  margin-bottom: 120px;
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-titel {
   font-size: 56px;
@@ -167,9 +166,6 @@ img {
   letter-spacing: 0.02em;
   background: var(--primary-text-color);
   color: var(--white-color);
-  padding-top: 188px;
-  padding-bottom: 0;
-  margin-bottom: 48px;
   max-width: 500px;
   justify-content: center;
   margin-right: auto;
@@ -190,7 +186,7 @@ img {
   color: var(--white-color);
   display: inline-block;
   border-radius: 4px;
-  margin-top: 0;
+  margin-top: 48px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -219,8 +215,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  width: 264px;
-  margin-right: 24px;
 }
 
 .feature-title,
@@ -235,8 +229,15 @@ img {
 .feacture {
   margin-bottom: 120px;
 }
+.feature-item {
+  /*flex-basis: calc((100%-72px) / 4);*/
+  width: 264px;
+}
 
 /*======================= WORK =======================*/
+.works {
+  padding-bottom: 120px;
+}
 .works-title {
   font-size: 36px;
   line-height: 1.11;
@@ -244,7 +245,7 @@ img {
   text-transform: capitalize;
   color: var(--primary-text-color);
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .works-list {
   display: flex;
@@ -254,6 +255,7 @@ img {
 /*======================== TEAM =======================*/
 .team {
   background-color: var(--background-color);
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -263,7 +265,7 @@ img {
   text-transform: capitalize;
   color: var(--primary-text-color);
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -275,6 +277,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  margin: 8px;
+  text-align: center;
 }
 
 .team-position {
@@ -285,20 +289,17 @@ img {
   text-align: center;
 }
 
-.team-name {
-  padding-top: 32px;
-  padding-bottom: 8px;
-  text-align: center;
-}
 .team-item {
-  flex-basis: calc((100%-64px) / 4);
+  /*flex-basis: calc((100%-64px) / 4);*/
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+  margin-right: 24px;
+}
+.team-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /*======================= FOOTER =======================*/
-.footer {
-  background-color: var(--primary-text-color);
-  width: 1440px;
-  height: 310px;
-}
 
 .footer-text {
   font-size: 16px;
@@ -306,7 +307,6 @@ img {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   max-width: 264px;
-  margin-left: 143px;
   margin-top: 16px;
 }
 
@@ -316,7 +316,6 @@ img {
 
 .logotype-footer {
   font-family: "Raleway", sans-serif;
-  margin-left: 156px;
   color: #4d5ae5;
   font-weight: 800;
   font-size: 18px;
@@ -331,9 +330,15 @@ img {
   display: block;
   margin: auto;
   padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--primary-text-color);
 }
 
 /*======================= FILTER =======================*/
+.portfolio-page {
+  padding-bottom: 96px;
+  padding-bottom: 120px;
+}
 .filter-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -367,8 +372,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  margin-top: 32px;
-  margin-left: 16px;
 }
 
 .card-text {
@@ -376,8 +379,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  margin-top: 8px;
-  margin-left: 16px;
+  margin-bottom: 8px;
 }
 
 .card-list {
@@ -386,11 +388,16 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   margin-top: 72px;
-  margin-bottom: 120px;
 }
 .card-item {
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
+}
+
+.card-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 /*======================= CONTAINER ==========================*/
