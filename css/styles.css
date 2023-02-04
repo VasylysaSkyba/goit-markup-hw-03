@@ -66,8 +66,8 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -201,22 +201,6 @@ img {
 }
 
 /*======================= FEATURE =======================*/
-.feature-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  margin-bottom: 8px;
-}
-
-.feature-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-}
-
 .feature-title,
 .filter-title {
   display: none;
@@ -224,16 +208,31 @@ img {
 
 .feature-list {
   display: flex;
+  width: 264px;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
 }
 
-.feacture {
-  margin-bottom: 120px;
-}
-.feature-item {
-  /*flex-basis: calc((100%-72px) / 4);*/
+.feature-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  margin-bottom: 8px;
   width: 264px;
 }
 
+.feature-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  width: 264px;
+}
 /*======================= WORK =======================*/
 .works {
   padding-bottom: 120px;
@@ -360,7 +359,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 96px;
+  /* margin-top: 96px;*/
   margin-bottom: 72px;
 }
 
